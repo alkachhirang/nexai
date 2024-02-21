@@ -43,7 +43,7 @@ const Nexai = () => {
             <div className='container lg:max-w-[1124px] lg:px-3 px-5 mx-auto'>
                 <div className='flex flex-col justify-center items-center pb-[40px] sm:pb-[80px] lg:pb-[100px] xl:pb-[298px]' data-aos="fade-down" >
                     <h2 className='ff_play font-normal text-[32px] sm:text-[48px] leading-[44.48px] sm:leading-[60.48px] text-[#FCFCFC] text-center mb-[16px]'>Things going easier with NexAi</h2>
-                    <p className='max-w-[823px] text-normal text-[#FFFFFF] text-[14px] sm:text-[16px] leading-[21.6px] sm:leading-[25.6px] text-center'>Sed sit sit sit at laoreet tortor dis euismod in. Viverra arcu semper mauris lorem dignissim vulputate orci. Habitant imperdiet at molestie ipsumpretium in pharetra tincidunt.</p>
+                    <p className='max-w-[823px] text-normal text-[#FFFFFF] text-[14px] sm:text-[16px] leading-[21.6px] sm:leading-[25.6px] text-center opacity-70'>Sed sit sit sit at laoreet tortor dis euismod in. Viverra arcu semper mauris lorem dignissim vulputate orci. Habitant imperdiet at molestie ipsumpretium in pharetra tincidunt.</p>
                 </div>
             </div>
 

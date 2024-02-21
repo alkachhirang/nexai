@@ -13,7 +13,7 @@ const Blockchain = () => {
             <div className='container lg:max-w-[1124px] lg:px-3 px-5 mx-auto pt-[30px] lg:pt-[80px] xl:pt-[91px]'>
                 <div className='flex flex-col' data-aos="fade-down" >
                     <h2 className='ff_play font-normal text-[32px] sm:text-[48px] leading-[45px] sm:leading-[60.48px] text-[#FCFCFC] mb-[8px] sm:mb-[16px]'>Blockchain & AI technology</h2>
-                    <p className='max-w-[997px] text-normal text-[#FFFFFF] text-[14px] sm:text-[16px] leading-[21.6px] sm:leading-[25.6px] mb-[10px] lg:mb-[40px]'>Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
+                    <p className='max-w-[997px] text-normal text-[#FFFFFF] text-[14px] sm:text-[16px] leading-[21.6px] sm:leading-[25.6px] mb-[10px] lg:mb-[40px] opacity-70'>Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
                     <p className='ff_play font-normal text-[16px] sm:text-[20px] leading-[22px] sm:leading-[32px] text-[#FFFFFF] lg:mb-[40px]'>By building the software on blockchain, Nexai provides the following advantages</p>
                 </div>
             </div>
@@ -23,10 +23,10 @@ const Blockchain = () => {
                         <img src={Borderline} alt="Borderline" className='absolute left-0 top-0 bottom-0 w-[2px] h-full ' />
                         <div className='lg:w-[51%] w-full' data-aos="fade-right">
                             <div className='lg:flex-col sm:flex-row flex-col flex gap-[12px] sm:gap-[16px] md:gap-[20px] lg:gap-0 mb-[10px] md:mb-[16px]'>
-                                <div className='w-[51px] h-[51px] cursor-pointer bg-[#040404] shadow-[0px_4px_16px_0px_rgba(0,_102,_255,_0.61)_inset] rounded-[50px] lg:mb-[20px]'>
+                                <div className='w-[58px] h-[58px] cursor-pointer bg-[#040404] shadow-[0px_4px_16px_0px_rgba(0,_102,_255,_0.61)_inset] rounded-[50px] lg:mb-[20px]'>
                                     <p className='font-semibold text-[32px] text-[#FFFFFF] leading-[51.2px] text-center'>1</p>
                                 </div>
-                                <p className='ff_play font-bold text-[29px] sm:text-[40px] leading-[30px] sm:leading-[47px] lg:leading-[64px] text-[#FFFFFF] lg:mb-[16px]'>Security and Privacy</p>
+                                <p className='ff_play font-bold text-[29px] sm:text-[40px] leading-[30px] sm:leading-[47px] lg:leading-[64px] text-[#FFFFFF]'>Security and Privacy</p>
                             </div>
                             <p className='font-normal text-[14px] sm:text-[16px] sm:leading-[25.6px] leading-[21.6px] text-[#FFFFFF] lg:max-w-[538px] opacity-70'>Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
                         </div>
@@ -39,7 +39,7 @@ const Blockchain = () => {
                         <div className='lg:w-[51%] w-full'>
                             <div className='lg:flex-col sm:flex-row flex-col flex gap-[12px] sm:gap-[16px] md:gap-[20px] lg:gap-0 mb-[10px] md:mb-[16px]'>
                                 <div>
-                                    <div className='w-[51px] h-[51px] cursor-pointer bg-[#FCFCFC] shadow-[0px_4px_16px_0px_rgba(0,_102,_255,_0.61)_inset] rounded-[50px] lg:mb-[20px]'>
+                                    <div className='w-[58px] h-[58px] flex justify-center items-center cursor-pointer bg-[#FCFCFC] shadow-[0px_4px_16px_0px_rgba(0,_102,_255,_0.61)_inset] rounded-[50px] lg:mb-[20px]'>
                                         <p className='font-semibold text-[32px] text-[#000] leading-[51.2px] text-center'>2</p>
                                     </div>
                                 </div>
@@ -55,10 +55,10 @@ const Blockchain = () => {
                         <img src={Borderline} alt="Borderline" className='absolute left-0 top-0 bottom-0 w-[2px] h-full ' />
                         <div className='lg:w-[51%] w-full'>
                             <div className='lg:flex-col sm:flex-row flex-col flex gap-[12px] sm:gap-[16px] md:gap-[20px] lg:gap-0 mb-[10px] md:mb-[16px]'>
-                                <div className='w-[51px] h-[51px] cursor-pointer bg-[#040404] shadow-[0px_4px_16px_0px_rgba(0,_102,_255,_0.61)_inset] rounded-[50px] lg:mb-[20px]'>
+                                <div className='w-[58px] h-[58px] flex justify-center items-center cursor-pointer bg-[#040404] shadow-[0px_4px_16px_0px_rgba(0,_102,_255,_0.61)_inset] rounded-[50px] lg:mb-[20px]'>
                                     <p className='font-semibold text-[32px] text-[#FFFFFF] leading-[51.2px] text-center'>3</p>
                                 </div>
-                                <p className='ff_play font-bold text-[29px] sm:text-[40px] leading-[37px] sm:leading-[50px] lg:leading-[64px] text-[#FFFFFF] lg:mb-[16px]'>Self-learning and Personalization</p>
+                                <p className='ff_play font-bold text-[29px] sm:text-[40px] leading-[37px] sm:leading-[50px] lg:leading-[64px] text-[#FFFFFF]'>Self-learning and Personalization</p>
                             </div>
                             <p className='font-normal text-[14px] sm:text-[16px] sm:leading-[25.6px] leading-[21.6px] text-[#FFFFFF] lg:max-w-[538px] opacity-70'>Nexai uses blockchain technology to create a self-learning platform. By analyzing user data, Nexai learns users' preferences and habits over time, resulting in a more personalized and tailored experience for each user.</p>
                         </div>
@@ -71,7 +71,7 @@ const Blockchain = () => {
                         <div className='lg:w-[51%] w-full'>
                             <div className='lg:flex-col sm:flex-row flex-col flex gap-[12px] sm:gap-[16px] md:gap-[20px] lg:gap-0 mb-[10px] md:mb-[16px]'>
                                 <div>
-                                    <div className='w-[51px] h-[51px] cursor-pointer bg-[#FCFCFC] shadow-[0px_4px_16px_0px_rgba(0,_102,_255,_0.61)_inset] rounded-[50px] lg:mb-[20px]'>
+                                    <div className='w-[58px] h-[58px] cursor-pointer bg-[#FCFCFC] shadow-[0px_4px_16px_0px_rgba(0,_102,_255,_0.61)_inset] rounded-[50px] lg:mb-[20px]'>
                                         <p className='font-semibold text-[32px] text-[#000] leading-[51.2px] text-center'>4</p>
                                     </div>
                                 </div>

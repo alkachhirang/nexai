@@ -66,7 +66,7 @@ function App() {
               <GetTouch />
               <Footer />
             </div>
-            <div onClick={() => top()} className={backToTop ? "back_to_top shadow-[0_5px_16px_rgba(252,252,252,1)] overflow-hidden fixed bottom-[3%] h-[50px] w-[50px] flex items-center justify-center rounded-[50px] border-[2px] border-solid border-[#0066FF] bg-transparent cursor-pointer transition-all ease-linear duration-300 right-[2%] z-[2]" : "hidden"}>
+            <div onClick={() => top()} className={backToTop ? "back_to_top shadow-[0_5px_16px_rgba(252,252,252,1)] overflow-hidden fixed bottom-[3%] h-[50px] w-[50px] flex items-center justify-center rounded-[50px] border-[2px] border-solid border-[#0066FF] bg-[#000] cursor-pointer transition-all ease-linear duration-300 right-[2%] z-[2]" : "hidden"}>
               <img src={Backtotop} alt='Backtotop' className='max-w-[60px] ' />
             </div>
           </>

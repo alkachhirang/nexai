@@ -25,11 +25,11 @@ const Header = () => {
                         className="sm:max-w-[450px] max-h-[857px] h-full max-w-[400px] w-full object-center object-cover"
                     />
                 </div>
-                <div className="container lg:max-w-[1124px] lg:px-3 px-5 mx-auto">
+                <div className="container lg:max-w-[1124px] lg:px-3 px-5 mx-auto relative z-[3]">
                     <nav className="flex items-center md:justify-end justify-between lg:gap-[254px] gap-[100px] h-[100px] relative z-[1]">
                         <ul
                             className={`${show ? "left-[-100%]" : "left-0"
-                                } flex max-md:fixed max-md:top-0 max-md:bg-black max-md:h-full max-md:w-full max-md:z-[7] max-md:transition-all max-md:duration-300 max-md:ease-linear max-md:min-h-screen max-md:flex-col gap-5 items-center justify-center`}
+                                } flex max-md:fixed max-md:top-0 max-md:bg-black max-md:h-full max-md:w-full max-md:z-[10] max-md:transition-all max-md:duration-300 max-md:ease-linear max-md:min-h-screen max-md:flex-col gap-5 items-center justify-center`}
                         >
                             <li onClick={() => setShow(!show)}>
                                 <a
@@ -69,7 +69,7 @@ const Header = () => {
                         </button>
                         <div
                             onClick={() => setShow(!show)}
-                            className="md:hidden w-[35px] h-[23px] relative z-[10] flex justify-between flex-col"
+                            className="md:hidden w-[35px] h-[23px] relative z-[10] flex justify-between flex-col cursor-pointer"
                         >
                             <span
                                 className={`${show

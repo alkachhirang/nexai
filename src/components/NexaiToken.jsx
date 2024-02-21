@@ -16,7 +16,7 @@ const NexaiToken = () => {
                     <div className='flex-row flex-wrap flex'>
                         <div className='lg:w-[50%] w-full relative z-[1]' data-aos="fade-right">
                             <div>
-                                <div className='w-[58px] h-[58px] cursor-pointer bg-[#FCFCFC] shadow-[0px_4px_16px_0px_rgba(0,_102,_255,_0.61)_inset] rounded-[50px] mb-[15px] sm:mb-[30px]'>
+                                <div className='w-[58px] h-[58px] flex justify-center items-center cursor-pointer bg-[#FCFCFC] shadow-[0px_4px_16px_0px_rgba(0,_102,_255,_0.61)_inset] rounded-[50px] mb-[15px] sm:mb-[30px]'>
                                     <p className='font-semibold text-[32px] text-[#0066FF] leading-[51.2px] text-center'>1</p>
                                 </div>
                             </div>

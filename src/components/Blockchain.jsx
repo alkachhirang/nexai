@@ -23,8 +23,8 @@ const Blockchain = () => {
                         <img src={Borderline} alt="Borderline" className='absolute left-0 top-0 bottom-0 w-[2px] h-full ' />
                         <div className='lg:w-[51%] w-full' data-aos="fade-right">
                             <div className='lg:flex-col sm:flex-row flex-col flex gap-[12px] sm:gap-[16px] md:gap-[20px] lg:gap-0 mb-[10px] md:mb-[16px]'>
-                                <div className='w-[58px] h-[58px] cursor-pointer bg-[#040404] shadow-[0px_4px_16px_0px_rgba(0,_102,_255,_0.61)_inset] rounded-[50px] lg:mb-[20px]'>
-                                    <p className='font-semibold text-[32px] text-[#FFFFFF] leading-[51.2px] text-center'>1</p>
+                                <div className='w-[58px] h-[58px] d-flex justify-center items-center cursor-pointer bg-[#040404] shadow-[0px_4px_16px_0px_rgba(0,_102,_255,_0.61)_inset] rounded-[50px] lg:mb-[20px]'>
+                                    <p className='font-semibold text-[32px] text-[#FFFFFF] leading-[59.2px] text-center'>1</p>
                                 </div>
                                 <p className='ff_play font-bold text-[29px] sm:text-[40px] leading-[30px] sm:leading-[47px] lg:leading-[64px] text-[#FFFFFF]'>Security and Privacy</p>
                             </div>
@@ -71,7 +71,7 @@ const Blockchain = () => {
                         <div className='lg:w-[51%] w-full'>
                             <div className='lg:flex-col sm:flex-row flex-col flex gap-[12px] sm:gap-[16px] md:gap-[20px] lg:gap-0 mb-[10px] md:mb-[16px]'>
                                 <div>
-                                    <div className='w-[58px] h-[58px] cursor-pointer bg-[#FCFCFC] shadow-[0px_4px_16px_0px_rgba(0,_102,_255,_0.61)_inset] rounded-[50px] lg:mb-[20px]'>
+                                    <div className='w-[58px] h-[58px] flex justify-center items-center cursor-pointer bg-[#FCFCFC] shadow-[0px_4px_16px_0px_rgba(0,_102,_255,_0.61)_inset] rounded-[50px] lg:mb-[20px]'>
                                         <p className='font-semibold text-[32px] text-[#000] leading-[51.2px] text-center'>4</p>
                                     </div>
                                 </div>

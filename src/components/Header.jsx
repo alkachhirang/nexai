@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import HeroLayer from "../assets/images/png/Hero-Layer.webp";
 import HomeRobot from "../assets/images/png/HomeRobot.webp";
+import Bggif from '../assets/images/gif/HeroGif.gif';
 
 const Header = () => {
     const [show, setShow] = useState(true);
@@ -11,13 +12,12 @@ const Header = () => {
     }
     return (
         <>
-            <div className="bg-Bggif bg-no-repeat bg-bgsize relative">
-                <div className="absolute left-0 bottom-0 right-0 w-full h-[121px]  bg-gradient-to-b from-[#01030900] to-[#010309]"></div>
-                <img
-                    src={HeroLayer}
-                    alt="HeroLayer"
-                    className="absolute top-0 left-0 w-full z-0 h-full opacity-[0.9]"
-                />
+            <div className="bg-[#08090e] relative">
+                <div className="bg-[#08090e] absolute bottom-0 top-0 left-0 right-0 w-full h-full">
+                    <img src={Bggif} alt="Bggif" className="w-full h-full object-center object-cover opacity-20" />
+                </div>
+                <div className="absolute left-0 top-0 right-0 bottom-0 bg-[#0066ff]  mix-blend-overlay ">
+                </div>
                 <div className="absolute left-0 top-0 bottom-0 right-0  xl:top-[-100px] flex items-center justify-center">
                     <img
                         src={HomeRobot}

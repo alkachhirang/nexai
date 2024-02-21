@@ -2,7 +2,7 @@ import React from 'react';
 
 const GetTouch = () => {
     return (
-        <div className='lg:translate-y-[37%] pb-[35px] sm:pb-[50px] md:pb-[70px] lg:pb-0'>
+        <div id="Contact" className='lg:translate-y-[37%] pb-[35px] sm:pb-[50px] md:pb-[70px] lg:pb-0'>
             <div className='container lg:max-w-[1124px] lg:px-3 px-5 mx-auto'>
                 <div className='bg-Getbg lg:bg-bgsize bg-no-repeat bg-cover rounded-[16px] max-w-[1140px] py-[40px] sm:py-[55px] lg:py-[70px] px-[18px] sm:px-[30px] lg:px-0'>
                     <div className='flex flex-col justify-center items-center' data-aos="fade-down">

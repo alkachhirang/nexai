@@ -19,7 +19,7 @@ const Blockchain = () => {
             </div>
             <div className='container lg:max-w-[1124px] lg:px-3 sm:px-5 mx-auto'>
                 <div className='xl:h-[646px] lg:h-[510px] h-[592px] overflow-y-scroll hidden_scrollbar'>
-                    <div className='flex flex-row flex-wrap items-center justify-between lg:mb-[38px] pb-[60px] mt-[60px] lg:mt-0  lg:pt-[100px] lg:pb-[75px] xl:pt-[201px] xl:pb-[182px] px-[20px] sm:px-[28px] relative'>
+                    <div id='Privacy' className='flex flex-row flex-wrap items-center justify-between lg:mb-[38px] pb-[60px] mt-[60px] lg:mt-0  lg:pt-[100px] lg:pb-[75px] xl:pt-[201px] xl:pb-[182px] px-[20px] sm:px-[28px] relative'>
                         <img src={Borderline} alt="Borderline" className='absolute left-0 top-0 bottom-0 w-[2px] h-full ' />
                         <div className='lg:w-[51%] w-full' data-aos="fade-right">
                             <div className='lg:flex-col sm:flex-row flex-col flex gap-[12px] sm:gap-[16px] md:gap-[20px] lg:gap-0 mb-[10px] md:mb-[16px]'>
@@ -34,7 +34,7 @@ const Blockchain = () => {
                             <img src={Blockchainimg1} alt="Blockchainimg1" className='max-w-[414px] w-full' />
                         </div>
                     </div>
-                    <div className='flex flex-row flex-wrap items-center justify-between lg:mb-[38px] rounded-[4px] bg-[#0066FF] pb-[60px] pt-[60px] lg:pt-[100px] lg:pb-[75px] xl:pt-[180px] xl:pb-[140px] px-[20px] sm:px-[28px] relative'>
+                    <div id='terms' className='flex flex-row flex-wrap items-center justify-between lg:mb-[38px] rounded-[4px] bg-[#0066FF] pb-[60px] pt-[60px] lg:pt-[100px] lg:pb-[75px] xl:pt-[180px] xl:pb-[140px] px-[20px] sm:px-[28px] relative'>
                         <img src={Borderline} alt="Borderline" className='absolute left-0 top-0 bottom-0 w-[2px] h-full ' />
                         <div className='lg:w-[51%] w-full'>
                             <div className='lg:flex-col sm:flex-row flex-col flex gap-[12px] sm:gap-[16px] md:gap-[20px] lg:gap-0 mb-[10px] md:mb-[16px]'>
@@ -66,7 +66,7 @@ const Blockchain = () => {
                             <img src={Blockchainimg3} alt="Blockchainimg3" className='max-w-[418px] w-full' />
                         </div>
                     </div>
-                    <div className='flex flex-row flex-wrap items-center justify-between lg:mb-[38px] rounded-[4px] bg-[#0066FF] pb-[60px] pt-[60px] lg:pt-[100px] lg:pb-[75px] xl:pt-[180px] xl:pb-[114px] px-[20px] sm:px-[28px] relative'>
+                    <div id='Phone' className='flex flex-row flex-wrap items-center justify-between lg:mb-[38px] rounded-[4px] bg-[#0066FF] pb-[60px] pt-[60px] lg:pt-[100px] lg:pb-[75px] xl:pt-[180px] xl:pb-[114px] px-[20px] sm:px-[28px] relative'>
                         <img src={Borderline} alt="Borderline" className='absolute left-0 top-0 bottom-0 w-[2px] h-full ' />
                         <div className='lg:w-[51%] w-full'>
                             <div className='lg:flex-col sm:flex-row flex-col flex gap-[12px] sm:gap-[16px] md:gap-[20px] lg:gap-0 mb-[10px] md:mb-[16px]'>

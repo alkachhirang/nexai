@@ -1,5 +1,5 @@
 import React from 'react';
-import bgimg from '../assets/images/png/bgtoken.webp';
+import bgimg from '../assets/images/web.p/bgtoken.webp';
 import Tokengif from '../assets/images/gif/token-gif.gif';
 
 const NexaiToken = () => {

@@ -7,9 +7,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         'Bggif': "url('./assets/images/gif/HeroGif.gif')",
-        'Nexaibg': "url('./assets/images/png/BgNexAi.webp')",
-        'Getbg': "url('./assets/images/png/Gettouch-bg-img.png')",
-        'Footerbg': "url('./assets/images/png/footer-bg-img.png')",
+        'Nexaibg': "url('./assets/images/web.p/BgNexAi.webp')",
+        'Getbg': "url('./assets/images/web.p/Gettouch-bg-img.webp')",
+        'Footerbg': "url('./assets/images/web.p/footer-bg-img.webp')",
       },
 
       backgroundSize: {

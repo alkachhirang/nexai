@@ -1,9 +1,9 @@
 import React from 'react';
-import Blockchainimg1 from '../assets/images/png/blockchain-1.png';
-import Blockchainimg2 from '../assets/images/png/blockchain-2.png';
-import Blockchainimg3 from '../assets/images/png/blockchain-3.png';
-import Blockchainimg4 from '../assets/images/png/blockchain-4.png';
-import Borderline from '../assets/images/png/blockchain-borderline.webp';
+import Blockchainimg1 from '../assets/images/web.p/blockchain-1.webp';
+import Blockchainimg2 from '../assets/images/web.p/blockchain-2.webp';
+import Blockchainimg3 from '../assets/images/web.p/blockchain-3.webp';
+import Blockchainimg4 from '../assets/images/web.p/blockchain-4.webp';
+import Borderline from '../assets/images/web.p/blockchain-borderline.webp';
 
 const Blockchain = () => {
     return (

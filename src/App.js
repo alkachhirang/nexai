@@ -11,7 +11,7 @@ import Presale from './components/Presale';
 import GetTouch from './components/GetTouch';
 import Footer from './components/Footer';
 import NexaiToken from './components/NexaiToken';
-import Backtotop from './assets/images/png/back-to-top.png';
+import Backtotop from './assets/images/web.p/back-to-top.webp';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Aos from 'aos';

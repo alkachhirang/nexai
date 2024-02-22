@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import HeroLayer from "../assets/images/png/Hero-Layer.webp";
-import HomeRobot from "../assets/images/png/HomeRobot.webp";
+import HomeRobot from "../assets/images/web.p/HomeRobot.webp";
 import Bggif from '../assets/images/gif/HeroGif.gif';
 
 const Header = () => {

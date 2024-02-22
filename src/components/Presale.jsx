@@ -7,7 +7,7 @@ const Presale = () => {
             <div className=" absolute right-[-11%] top-[-10%] blur-[124px] opacity-[70%]  w-[274px] h-[274px] rounded-[50%] bg-[#0066FF] animate-pulse md:block hidden"></div>
             <div className=" absolute left-[-11%] top-[29%] blur-[124px] opacity-[70%]  w-[274px] h-[274px] rounded-[50%] bg-[#0066FF] animate-pulse md:block hidden"></div>
             <div className='container lg:max-w-[1124px] lg:px-3 px-5 mx-auto '>
-                <div className='flex lg:flex-row flex-col-reverse flex-wrap items-center justify-center lg:justify-between'>
+                <div className='flex flex-row flex-wrap items-center justify-center lg:justify-between'>
                     <div className='lg:w-[40%] w-full flex justify-center lg:justify-start' data-aos="fade-right">
                         <img src={Presalegif} alt="Presalegif" className='w-full max-w-[564px]' />
                     </div>

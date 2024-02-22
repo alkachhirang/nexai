@@ -13,6 +13,7 @@ const Header = () => {
     return (
         <>
             <div className="bg-[#08090e] relative">
+                <div className="absolute left-0 bottom-[-2px] right-0 w-full h-[121px] bg-gradient-to-b from-[#08090e00] to-[#08090E] z-[2] "> </div>
                 <div className="bg-[#08090e] absolute bottom-0 top-0 left-0 right-0 w-full h-full">
                     <img src={Bggif} alt="Bggif" className="w-full h-full object-center object-cover opacity-20" />
                 </div>

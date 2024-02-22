@@ -9,7 +9,7 @@ import Bgimg from '../assets/images/gif/unique_bg-img.gif';
 const UniqueFeatures = () => {
     return (
         <div id='Features' className='md:pt-[80px] sm:pt-[50px] pt-[40px] pb-[50px] sm:pb-[121px] relative'>
-            <div className=" absolute right-[-2%] top-[0] blur-[124px] opacity-[70%]  w-[274px] h-[274px] rounded-[50%] bg-[#0066FF] animate-pulse md:block hidden"></div>
+            <div className=" absolute z-[1] right-[-2%] top-[-5%] blur-[124px] opacity-[70%]  w-[274px] h-[274px] rounded-[50%] bg-[#0066FF] animate-pulse md:block hidden"></div>
             <div className=" absolute left-[-2%] bottom-[7%] blur-[124px] opacity-[70%]  w-[274px] h-[182px] rounded-[50%] bg-[#0066FF] animate-pulse md:block hidden z-[1]"></div>
             <div className="absolute left-0 bottom-0 right-0 w-full h-[121px]  bg-gradient-to-b from-[#01030900] to-[#010309]"></div>
             <div className='absolute left-0 right-0 bottom-0 top-0 flex justify-center items-center'>

@@ -4,7 +4,8 @@ import Assistantimg from '../assets/images/png/assistant-skull-img.webp';
 
 const HomeAssistant = () => {
     return (
-        <div id='About' className='pt-[37px] md:pt-[45px] lg:pt-[75px] lg:pb-[130px] overflow-x-hidden relative'>
+        <div id='About' className='pt-[37px] md:pt-[45px] lg:pt-[75px] lg:pb-[130px] overflow-hidden relative hidden_scrollbar'>
+            <div className="absolute left-0 bottom-[-38px] right-0 w-full h-[121px] bg-gradient-to-b from-[#08090e00] to-[#08090E] z-[1] "> </div>
             <div className=" absolute left-0 top-[46%] blur-[124px] opacity-[70%]  w-[274px] h-[168px] rounded-[50%] bg-[#0066FF] animate-pulse md:block hidden"></div>
             <div className="container lg:max-w-[1124px] lg:px-3 px-5 mx-auto">
                 <div className='flex flex-row flex-wrap items-center xl:justify-between'>
